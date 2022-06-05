@@ -1442,15 +1442,26 @@ span.index-subtitle {
   word-wrap: break-word;
   word-break: keep-all;
   font-size: 1.7rem;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppings', sans-serif;
   text-align: left;
-  line-height: 2.2rem;
   opacity: 0.8;
   margin-bottom: 2rem;
   display: block;
   font-weight: lighter;
 }
 
+span.udon-index-subtitle {
+　max-width: 30rem;
+  word-wrap: break-word;
+  word-break: keep-all;
+  font-size: 1.7rem;
+  font-family: 'Poppings', sans-serif;
+  text-align: left;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+  display: block;
+  font-weight: lighter;
+}
 
 .connection {
 	text-align: left;
@@ -1459,11 +1470,10 @@ span.index-subtitle {
 .connection a {
 	padding:0.8rem 1.2rem;
 	color: white;
-	background: #372769;
+	background: #333;
 	border-radius: 2rem;
 	font-size: 1rem;
 	text-decoration: none;
-	opacity: 0.8;
 	transition: opacity 0.5s;
 }
 
