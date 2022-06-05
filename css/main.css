@@ -70,6 +70,22 @@ img {
 	display: block;
 }
 
+
+#tag-top-img {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+	display: block;
+	background-color: #eee;
+}
+
+.udon-description {
+	text-align: left;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+
 #udon-research {
 	background: white;
 }
@@ -93,8 +109,15 @@ img.tag-top {
 }
 
 .tag-title {
-	color: #111;
-	font-size: 4.5rem;
+	color: #333;
+	font-size: 4rem;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.tag-subtitle {
+	text-align: center;
+	font-weight: normal;
 }
 
 div.tag-comparison {
@@ -172,7 +195,12 @@ div.udon-list {
  	background: white;
 }
 
-#outcome {
+#outcome  {
+	background: #000;
+	color: #ddd;
+}
+
+#tag-deliver {
 	background: #000;
 	color: #ddd;
 }
@@ -181,6 +209,9 @@ div.udon-list {
 	color: white;
     opacity: 0.7;
 }
+
+#footer-index {
+	text-align: center;
 }
 
 .udon-caption {
@@ -473,6 +504,19 @@ ul.decimal > li {
 	font-weight: bold;
 }
 
+.jp-index {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    display: block;
+    color: #555;
+}
+
+.new-index {
+	width: 400px;
+}
+
 #subject-MM {
 	background: linear-gradient(90deg, #bdb5b2,#bdb5b2,#b9ada7, #aca19f 90%);
 	padding-top:10rem; 
@@ -505,6 +549,13 @@ div.udon-video-content {
 	padding: 0 2rem;
 }
 
+div.tag-top-content {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70rem;
+	padding: 0 2rem;
+}
 
 .M2k-title {
 	color: white;
@@ -1333,12 +1384,12 @@ section#fileview-index{
 
 .title-index {
 	font-size: 3.5rem;
-	font-family:'Scope One', serif;
+	font-family:'Poppings', sans-serif;
 }
 
 span.sub-t-index {
 	font-size: 2rem;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Poppings', sans-serif;
 	opacity: .7;
 	line-height: 3rem;
 	font-weight: lighter;
