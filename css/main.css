@@ -539,6 +539,7 @@ ul.decimal > li {
 .udon-title {
 	color: white;
 	opacity: 0.9;
+	font-weight: lighter;
 }
 
 div.udon-video-content {
@@ -1201,6 +1202,10 @@ ul.list-c {
 
 .bold {
 	font-weight: bold;
+}
+
+.normal {
+	font-weight: normal;
 }
 
 .line-thru {
