@@ -542,6 +542,11 @@ ul.decimal > li {
 	font-weight: lighter;
 }
 
+.jp-opinion {
+	font-size: 1.7rem;
+    padding: 5rem 2rem;
+}
+
 div.udon-video-content {
 	position: relative;
 	margin-left: auto;
