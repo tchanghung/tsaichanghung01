@@ -296,7 +296,7 @@ ol.
 
 .content-index {
 	background: #f3f3f3;
-	padding: 2rem;
+	padding: 15rem 2rem 2rem;
   	margin: 10rem 3rem 20rem 3rem;
 }
 
@@ -348,7 +348,7 @@ ol.
 
   .content-index {
   	background: #f3f3f3;
-  	padding: 2rem;
+	padding: 15rem 2rem 2rem;
   	margin: 10rem 3rem 30rem;
 	}	
 
@@ -1340,7 +1340,7 @@ section#fileview-index{
 }
 
 .content-about {
-	width: calc(100% - 30vw);
+	width: calc(100% - 10vw);
 	margin: 0 auto 10vh;
 }
 
@@ -1402,6 +1402,7 @@ span.sub-t-index {
 	font-family: 'Poppings', sans-serif;
 	opacity: .7;
 	line-height: 3rem;
+	color: #000;
 	font-weight: lighter;
 }
 
@@ -1417,7 +1418,7 @@ span.sub-t-index > a:hover {
 
 @media (min-width: 480px) {
 	span.sub-t-index {
-	font-size: 2.3rem;
+	font-size: 2.1rem;
 	line-height: 3.3rem;
 }
 
@@ -1431,46 +1432,43 @@ a.sub-t-index-a {
 }
 
 @media (min-width: 1200px) {
-	span.sub-t-index {
-		margin: 0 11rem;
-		display: block;
+	span.sub-t-index {    
+	margin: 0 5rem;
+    display: block;
+    line-height: 4.2rem;
+    font-size: 2.3rem;
 	}
 }
 
 .horizontal {
 	padding-top: 3rem;
+	text-align: left;
 }
 
 h2 {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Poppings', sans-serif;
 	text-align: left;
-	font-weight: :bold; 
+	font-size: 2.4rem;
+	font-weight: bold;
 }
 
 span.index-subtitle {
-  max-width: 30rem;
+  max-width: 35rem;
   word-wrap: break-word;
   word-break: keep-all;
   font-size: 1.7rem;
   font-family: 'Poppings', sans-serif;
   text-align: left;
-  opacity: 0.8;
-  margin-bottom: 2rem;
+  opacity: 0.7;
   display: block;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
-span.udon-index-subtitle {
-　max-width: 30rem;
-  word-wrap: break-word;
-  word-break: keep-all;
-  font-size: 1.7rem;
-  font-family: 'Poppings', sans-serif;
-  text-align: left;
-  opacity: 0.8;
-  margin-bottom: 2rem;
-  display: block;
-  font-weight: lighter;
+.index-period{
+	display: block;
+	margin: 1rem 0 3rem 0;
+	color: #111;
+	opacity: 0.6;
 }
 
 .connection {
