@@ -25,17 +25,17 @@ p {
 
 a {
 	cursor: pointer;
-	color: #3a93ef;
+	color: #006fe1;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #3a93ef;
+	color: #006fe1;
 	text-decoration: underline;
 }
 
 a:focus {
-	color: #3a93ef;
+	color: #006fe1;
 	text-decoration: none;
 }
 
