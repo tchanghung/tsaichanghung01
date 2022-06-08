@@ -295,8 +295,8 @@ ol.mm-goal li {
 
 .content-index {
 	background: #f3f3f3;
-	padding: 15rem 2rem 2rem;
-  	margin: 5rem 3rem 30rem;
+	padding: 0rem;
+  	margin: 120vh 2rem 0rem;
 }
 
 @media (min-width: 600px) {
