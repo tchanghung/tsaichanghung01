@@ -292,12 +292,11 @@ ol.mm-goal li {
 	margin: 2rem 0;
 }
 
-ol. 
 
 .content-index {
 	background: #f3f3f3;
 	padding: 15rem 2rem 2rem;
-  	margin: 10rem 3rem 20rem 3rem;
+  	margin: 5rem 3rem 30rem;
 }
 
 @media (min-width: 600px) {
@@ -1337,6 +1336,8 @@ section#fileview-index{
 	height: 80vh;
 }
 
+#udon-index,
+#tag-index,
 #v7-index,
 #MM-index,
 #intro {
@@ -1644,6 +1645,10 @@ span.date {
 	.foo-txt h5{
 		text-decoration: none;
 	}
+}
+
+.top {
+	padding-top: 15vh;
 }
 
 
