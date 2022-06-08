@@ -175,7 +175,7 @@ div.udon-overview-title {
 }
 
 div.udon-overview-description {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: lighter;
 }
 
@@ -309,6 +309,15 @@ ol.
 
 
 @media (min-width: 768px) {
+
+   div.udon-overview-description {
+   	font-size: 1.9rem;
+   }
+
+   span.jp {
+	font-size: 1.7rem;
+	}
+
   .content {
     width: 750px;
     padding: 10rem 5rem;
@@ -500,7 +509,7 @@ ul.decimal > li {
 }
 
 .jp {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 
