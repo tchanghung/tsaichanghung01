@@ -3,6 +3,7 @@
 	color: #fff;
 }*/
 
+
 html {
 	font-size:62.5%;
 	margin:0;
@@ -68,6 +69,11 @@ img {
 	height: 100vh;
 	overflow: hidden;
 	display: block;
+}
+
+
+.dropdown-menu > li > a {
+	padding: 10px 20px;
 }
 
 
